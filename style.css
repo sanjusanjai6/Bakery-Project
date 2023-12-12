@@ -1,0 +1,403 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    font-family: 'Cardo', serif;
+}
+.homepage{
+    height:600px;
+    width:1356px ;
+}
+#hme{
+    height:600px;
+    width:1356px ;
+    z-index: 0;
+    position: absolute;
+}
+#navbar{
+    height: 150px;
+    width: 1356px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    z-index: 2;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+#homelist{
+    display: flex;
+    height: 20px;
+    gap: 20px;
+    margin-top: 40px;
+    list-style-type: none;
+    font-size: x-small;
+    color: white;
+    /* border-bottom: 1px solid white; */
+    padding: 0%;
+}
+#homelist :hover{
+    border-bottom:2px solid white;
+}
+#navIcon{
+    display: flex;
+    height: 25px;
+    width:25px;
+    gap: 20px;
+    margin-top: 30px;
+}
+.homecontent{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 220px;
+    margin-left: 378px;
+    z-index: 1;
+    align-items:center;
+}
+#homepara{
+    padding: 0%;
+    margin: 0%;
+    font-size: 4rem;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.homescreenbutton{
+    margin-top: 30px;
+    height: 35px;
+    width: 120px;
+    font-size: x-small;
+    font-weight: bold;
+    border:none;
+}
+/*homepage end */
+/* second page */
+.secondPage{
+    padding-top: 25px;
+    height: 500px;
+    width:1356px;
+    background-color: rgb(246, 220, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+}
+.secondPage>p{
+    padding: 20px;
+    margin: 0%;
+}
+#sec1{
+    font-family: 'Great Vibes', cursive;
+    font-size: x-large;
+    text-align: center;
+}
+#sec2{
+    font-size: xx-large;
+    text-align: center;
+}
+#sec3{
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.secimgcont{
+    width: 950px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.seccont1{
+    width: 300px;
+    height: 300px;
+}
+.seccont2{
+    width: 300px;
+    height: 300px;
+}
+.secimgcont a{
+    color: black;
+}
+.secimg2>img{
+    height: 290px;
+}
+/* second page end */
+/* third page */
+.thirdpage{
+    height: 850px;
+    width: 1356px;
+    background-color: rgb(246, 220, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.threefiveimgcont1{
+    display: flex;
+    text-align: center;
+    height: 300px;
+    width: 980px;
+    gap: 20px;
+    line-height: 5px;
+}
+.threefive1{
+    height: 300px;
+    width: 230px;
+}
+.threefive1 img{
+    height: 200px;
+    width: 230px;
+    padding-bottom: 15px;
+}
+.threefivep1{
+    font-size: x-small;
+    font-weight: bolder;
+}
+.threefivep2{
+    font-size: x-large;
+}
+/* three img content 2 */
+.threeimgcont2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 980px;
+    margin-top: 30px;
+}
+.tic1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    line-height: 45px;
+    height: 320px;
+    width: 180px;
+    margin-top: 20px;
+    border-right: 1px solid black;
+}
+.tic1>p{
+    padding-right: 20px;
+    margin: 0%;
+    
+}
+.tic1>p:hover{
+    color: darkred;
+    border-right: 4px   solid darkred;
+}
+.tic2{
+    height: 380px;
+    width:280px;
+}
+.tic2>img{
+    height: 380px;
+    width:290px;
+}
+.tic3{
+    height: 300px;
+    width:400px;
+    font-size: x-small;
+    margin-left:40px;
+}
+#tic3para{
+    font-size:x-large;
+}
+#tic3p{
+ padding-top: 15px;   
+}
+/* fourth */
+.video{
+    display: flex;
+    width: 1356px;
+    height: 450px;
+}
+/* fifth */
+.fifth{
+    padding-top: 25px;
+    height: 750px;
+    width: 1356px;
+    background-color: rgb(246, 220, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* sixth */
+.sixth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 1356px;
+}
+.six1{
+    display: flex;
+    justify-content: space-around;
+    width: 750px;
+    height:230px;
+}
+#sixpic>img{
+    width:160px;
+    height: 160px;
+}
+#sixpara{
+    width: 400px;
+    height:50px;
+}
+/* seventh */
+.seventh{
+    padding-top: 25px;
+    height: 750px;
+    width: 1356px;
+    background-color: rgb(246, 220, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sevencont{
+    display: flex;
+    width: 900px;
+    height:300px;
+    gap: 80px;
+}
+.sevenimg{
+    width:450px;
+    height: 300px;
+}
+.sevenimg>img{
+    width:400px ;
+    height: 300px;
+}
+.seventext{
+    width:400px ;
+    height: 300px;
+}
+#sevenp{
+    font-size: x-small;
+    font-style: italic;
+}
+.screenbutton{
+    height: 35px;
+    width: 120px;
+    font-size: x-small;
+    font-weight: bold;
+    border:none;
+    background-color:rgb(209, 96, 4);
+}
+/*eighth  */
+.eighth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    width:1356px;
+}
+.eightimg{
+    display: flex;
+    height:200px;
+    width:900px;
+}
+.eightimg img{
+   display: flex;
+   height: 180px;
+   width:180px;
+}
+/* nineth */
+.nineth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 1356px;
+    background-color: rgb(209, 96, 4);
+    color: white;
+}
+.inputbox :hover{
+    color: black;
+}
+.nineinput{
+    width: 400px;
+    height: 30px;
+    background-color:transparent;
+    border: 0px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+::placeholder{
+    color: white;
+}
+.ninebutton{
+    height: 32px;
+    font-weight: bold;
+    color: white;
+    background-color:transparent;
+    border: 0px;
+    border-bottom: 1px solid white; 
+}
+.lastcontent{
+    display: flex;
+    justify-content: space-between;
+    height:250px;
+    width:900px;
+}
+.nineli1{
+    width:150px;
+    height: 230;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#ninelog{
+    display: flex;
+    gap: 10px;
+    font-size: x-small;
+    line-height: 25px;
+}
+.nineli2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:200px;
+    width: 350px;
+    font-size: small;
+}
+#logo2{
+    height: 100px;
+    width: 100px;
+}
+#logos>img{
+    height: 20px;
+}
+.nineli3{
+    width:150px;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style-type: none;
+}
+.nineli3 li{
+   font-size: small;
+}
+/* tenth */
+.tenth{
+    height: 30px;
+    width: 1356px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(246, 220, 187) ;
+}
+#theend{
+    font-size: x-small;
+}
